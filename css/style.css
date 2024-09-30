@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+header {
+
+    height: 100%;
+    background-color: rgba(170, 137, 137, 0.916);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    align-content: center;
+}
+header img {
+    margin-left: 50px;
+   
+    border: white solid 5px;
+
+}
+
+header div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: xx-large;
+ color: rgb(34, 32, 32);
+ margin-top: 0;
+ margin-left: 60px;
+}
+header nav ul {
+    margin: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+
+
+}
+
+header nav ul li {
+    margin: 10px;
+
+}
+
+header nav ul li a {
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px;
+
+
+}
+
+header nav ul li a:hover {
+    color: #d50707;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+/*? MAIN */
+.hero {
+    background-image: url("../img/kiosko.jpg");
+    background-size: contain;
+    height:60Vh;
+  }
+
+  .productos {
+    text-align: center;
+    background-color: rgba(228, 14, 14, 0.11);
+    opacity: unset;
+
+
+}
+.productos div div {
+    padding: 10px;
+    height: 280px;
+    width: 234px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
+    -webkit-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: 15px 25px 27px -21px rgba(0, 0, 0, 0.92);
+
+}
+.productos div img {
+    height: 200px;
+    width: 228px;
+}
+
+.productos div h3 {
+    font-size: 30px;
+    margin: 5px;
+}
+.grid-container-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+
+}
+.productos div div:hover {
+    transform: scale(1.15);
+}
